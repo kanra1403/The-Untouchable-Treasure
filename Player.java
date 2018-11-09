@@ -33,7 +33,7 @@ class Player {
 	}
 	
 	//HP変更関数
-	public void SetHP(int value){
+	public static void SetHP(int value){
 		hp += value;
 		if(value > 0){
 			System.out.println("HPが"+value+"回復した");
