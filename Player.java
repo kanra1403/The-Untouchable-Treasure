@@ -17,6 +17,7 @@ class Player {
 		//モーションフラグ
 		boolean moveFrag = false;
 		boolean battleFrag = false;
+		boolean afterBattle = false;
 		
 		//アイテムフラグ
 		boolean koukaton = false;
@@ -24,8 +25,26 @@ class Player {
 		boolean password = false;
 		
 	}
-	//毒ダメージ関数
-	public Poison(){
-		hp--;
+	
+	//毒関数
+	public void SetPoison(){
+		poison = true;
+		poisonTurn = 3;
 	}
+	
+	//HP変更関数
+	public void SetHP(int value){
+		hp += value;
+	}
+	
+	//現在地変更関数
+	public void SetMyPoint(int[] point){
+		mypoint = point;
+	}
+	
+	//現在地取得関数
+	public int[] getMyPoint(){
+	 return myPoint;	
+	}
+	
 }
