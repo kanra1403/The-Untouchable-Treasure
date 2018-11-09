@@ -10,13 +10,5 @@ class main{
 		int[] dangeon = new int[5,5];
 		Player player = new Player();
 	}
-	
-	//トラップのメソッド。ポイズントラップであれば毒状態に、ポイズントラップでなければ2ダメージ。松田
-	public void Trap(boolean poison){
-		if(poison){
-			
-		}else{
-			
-		}
 		
 }
