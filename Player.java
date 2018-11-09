@@ -1,3 +1,5 @@
+package TUT;
+
 class Player {
 	public Player(){
 		int Hp = 10;
@@ -5,5 +7,10 @@ class Player {
 		
 		int[] MyPoint;
 		
+		boolean password = false;
+		boolean MoveFrag = false;
+		boolean BattleFrag = false;
+		boolean Koukaton = false;
+		boolean Yakushin = false;
 	}
 }
