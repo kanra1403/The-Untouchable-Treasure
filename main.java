@@ -35,5 +35,4 @@ class main{
 		}
 		player.setMyPoint(mp);
 	}
-	
 }
