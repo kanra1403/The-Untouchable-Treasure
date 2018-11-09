@@ -1,5 +1,4 @@
 class Player {
-
     //プレイヤーのステータス
     int hp;
     boolean poison;
@@ -80,5 +79,5 @@ class Player {
     public int[] getMyPoint() {
         return myPoint;
     }
-    
+
 }
