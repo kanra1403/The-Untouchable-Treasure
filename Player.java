@@ -1,5 +1,5 @@
 class Player {
-	public static Player(){
+	public Player(){
 		//プレイヤーのステータス
 		int hp = 10;
 		boolean poison = false;
@@ -35,6 +35,11 @@ class Player {
 	//HP変更関数
 	public void SetHP(int value){
 		hp += value;
+		if(value > 0){
+			System.out.println("HPが"+value+"回復した");
+		}else if(value < 0){
+			System.out.println(Math.abs(value)+"ダメージ");
+		}	
 	}
 	
 	//現在地変更関数
