@@ -27,7 +27,7 @@ class Player {
 	}
 	
 	//毒関数
-	public void SetPoison(){
+	public static void SetPoison(){
 		poison = true;
 		poisonTurn = 3;
 	}
