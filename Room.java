@@ -1,5 +1,9 @@
+import java.util.Random;
+
 class Room {
 	public Room(){
+		
+	}
 		// チュートリアル部屋
 		public void TutorialRoom(){
 		
@@ -17,13 +21,18 @@ class Room {
                     
                 }
                 //罠部屋
-                public void TrapRoom(){
-                    
+                public void TrapRoom(Player player){
+			Random r = new Random();
+			r.nextInt(2);
+			if(r==0){
+				player.setPoison();
+			}else{
+				player.setHP(-2);
+			}
                 }
                 //秘宝
 		public void GoolRoom(){
                     
                 }
 
-	}
 }
