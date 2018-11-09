@@ -1,31 +1,31 @@
 class Player {
 	public static Player(){
 		//プレイヤーのステータス
-		int Hp = 10;
-		boolean Poison = false;
-		int Poisonturn = 0;
+		int hp = 10;
+		boolean poison = false;
+		int poisonTurn = 0;
 		
 		//カード枚数
-		int BattleCard = 0;
-		int SwordCard　= 0;
-		int ShieldCard = 0;
-		int MagicCard = 0;
+		int battleCard = 0;
+		int swordCard　= 0;
+		int shieldCard = 0;
+		int magicCard = 0;
 		
 		//プレーヤーの場所
-		int[] MyPoint;
+		int[] myPoint;
 		
 		//モーションフラグ
-		boolean MoveFrag = false;
-		boolean BattleFrag = false;
+		boolean moveFrag = false;
+		boolean battleFrag = false;
 		
 		//アイテムフラグ
-		boolean Koukaton = false;
-		boolean Yakushin = false;
+		boolean koukaton = false;
+		boolean yakushin = false;
 		boolean password = false;
 		
 	}
 	//毒ダメージ関数
 	public Poison(){
-		--;
+		hp--;
 	}
 }
