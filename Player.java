@@ -26,6 +26,6 @@ class Player {
 	}
 	//毒ダメージ関数
 	public Poison(){
-		Player.Hp--;
+		--;
 	}
 }
