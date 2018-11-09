@@ -11,7 +11,8 @@ class main{
 		Player player = new Player();
 	}
 	
-	public void Trap(boolean poison){//トラップのメソッド。ポイズントラップであれば毒状態に、ポイズントラップでなければ2ダメージ。松田
+	//トラップのメソッド。ポイズントラップであれば毒状態に、ポイズントラップでなければ2ダメージ。松田
+	public void Trap(boolean poison){
 		if(poison){
 			
 		}else{
