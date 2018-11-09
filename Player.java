@@ -43,12 +43,12 @@ class Player {
 	}
 	
 	//現在地変更関数
-	public void SetMyPoint(int[] point){
+	public void SetMyPoint(int[][] point){
 		mypoint = point;
 	}
 	
 	//現在地取得関数
-	public int[] getMyPoint(){
+	public int[][] getMyPoint(){
 	 return myPoint;	
 	}
 	
